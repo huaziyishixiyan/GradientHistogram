@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HZChartView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    HZChartView *chartView = [[[NSBundle mainBundle] loadNibNamed:@"HZChartView" owner:nil options:nil] lastObject];
+    chartView.frame = CGRectMake(10, 100, [UIScreen mainScreen].bounds.size.width - 20, 180);
+    [self.view addSubview:chartView];
 }
 
 - (void)didReceiveMemoryWarning {

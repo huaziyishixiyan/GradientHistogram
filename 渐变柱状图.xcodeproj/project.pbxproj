@@ -15,6 +15,11 @@
 		8957D2FD1D2E581300489204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8957D2FB1D2E581300489204 /* LaunchScreen.storyboard */; };
 		8957D3081D2E581400489204 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D3071D2E581400489204 /* _____Tests.m */; };
 		8957D3131D2E581400489204 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D3121D2E581400489204 /* _____UITests.m */; };
+		8957D3271D2E582600489204 /* HZBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D3211D2E582600489204 /* HZBar.m */; };
+		8957D3281D2E582600489204 /* HZBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D3231D2E582600489204 /* HZBarChart.m */; };
+		8957D3291D2E582600489204 /* HZChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D3251D2E582600489204 /* HZChartView.m */; };
+		8957D32A1D2E582600489204 /* HZChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8957D3261D2E582600489204 /* HZChartView.xib */; };
+		8957D32D1D2E589C00489204 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8957D32C1D2E589C00489204 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		8957D30E1D2E581400489204 /* 渐变柱状图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "渐变柱状图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8957D3121D2E581400489204 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		8957D3141D2E581400489204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8957D3201D2E582500489204 /* HZBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBar.h; sourceTree = "<group>"; };
+		8957D3211D2E582600489204 /* HZBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBar.m; sourceTree = "<group>"; };
+		8957D3221D2E582600489204 /* HZBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZBarChart.h; sourceTree = "<group>"; };
+		8957D3231D2E582600489204 /* HZBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZBarChart.m; sourceTree = "<group>"; };
+		8957D3241D2E582600489204 /* HZChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZChartView.h; sourceTree = "<group>"; };
+		8957D3251D2E582600489204 /* HZChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZChartView.m; sourceTree = "<group>"; };
+		8957D3261D2E582600489204 /* HZChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZChartView.xib; sourceTree = "<group>"; };
+		8957D32B1D2E589C00489204 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8957D32C1D2E589C00489204 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				8957D2F11D2E581300489204 /* AppDelegate.m */,
 				8957D2F31D2E581300489204 /* ViewController.h */,
 				8957D2F41D2E581300489204 /* ViewController.m */,
+				8957D3201D2E582500489204 /* HZBar.h */,
+				8957D3211D2E582600489204 /* HZBar.m */,
+				8957D3221D2E582600489204 /* HZBarChart.h */,
+				8957D3231D2E582600489204 /* HZBarChart.m */,
+				8957D3241D2E582600489204 /* HZChartView.h */,
+				8957D3251D2E582600489204 /* HZChartView.m */,
+				8957D3261D2E582600489204 /* HZChartView.xib */,
+				8957D32B1D2E589C00489204 /* UIView+Extension.h */,
+				8957D32C1D2E589C00489204 /* UIView+Extension.m */,
 				8957D2F61D2E581300489204 /* Main.storyboard */,
 				8957D2F91D2E581300489204 /* Assets.xcassets */,
 				8957D2FB1D2E581300489204 /* LaunchScreen.storyboard */,
@@ -246,6 +269,7 @@
 				8957D2FD1D2E581300489204 /* LaunchScreen.storyboard in Resources */,
 				8957D2FA1D2E581300489204 /* Assets.xcassets in Resources */,
 				8957D2F81D2E581300489204 /* Main.storyboard in Resources */,
+				8957D32A1D2E582600489204 /* HZChartView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8957D2F51D2E581300489204 /* ViewController.m in Sources */,
+				8957D3291D2E582600489204 /* HZChartView.m in Sources */,
+				8957D3271D2E582600489204 /* HZBar.m in Sources */,
+				8957D32D1D2E589C00489204 /* UIView+Extension.m in Sources */,
 				8957D2F21D2E581300489204 /* AppDelegate.m in Sources */,
+				8957D3281D2E582600489204 /* HZBarChart.m in Sources */,
 				8957D2EF1D2E581300489204 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
